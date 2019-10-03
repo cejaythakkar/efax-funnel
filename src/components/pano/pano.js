@@ -2,7 +2,7 @@ import React from 'react';
 import './pano.scss';
 // import classes from './pano.css';
 
-function Pano(props) {
+function Pano({imageSrc,labelText}) {
     return(
         <div className="container">
         <div className="row">
@@ -10,11 +10,10 @@ function Pano(props) {
             <div className="funnel-pano">
               <h1>
                 <img
-                  src="images/icon-cloud.svg"
+                  src={imageSrc}
                   alt="View, send and receive your faxes quickly and securely, all on the cloud"
                 />
-                View, send and receive your faxes quickly and securely, all on
-                the cloud
+              {labelText}
               </h1>
             </div>
           </div>
