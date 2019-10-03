@@ -1,5 +1,6 @@
 import React from 'react';
 import './pano.scss';
+// import classes from './pano.css';
 
 function Pano(props) {
     return(
